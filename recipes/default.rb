@@ -10,6 +10,6 @@ end
 # Install tools
 node['default']['tools'].each do |pkg|
   package pkg do
-    timeout 60
+    timeout 120
   end
 end
